@@ -1,0 +1,207 @@
+# JavaScript Questions : Data_Type
+
+# Q1 Which of the following is the correct way to log an expression to the console?
+
+.A :  console.log(Hello Simplon)
+.B :  console.log("Hello Simplon")
+.C :  consolelog ("Hello Simplon")
+**********************************************Réponse:B
+# Q2 The expression "Hello" + 'Simplon' resolves to :
+.A :  'HelloSimplon' 
+.B :  "HelloSimplon"
+.C :  "Hello Simplon'"
+.D :  'Hello Simplon"
+.E :  Hello Simplon
+
+**********************************************Réponse:B
+# Q3 How can we store the result of this expression 5 * 70 / 100 in a variable called Result ?
+*
+.A :  let result = 5 * 70 / 100
+.B :  let result = (5 * 70 / 100)
+.C :  let "result" = 5 * 70 / 100
+.D : let result = "5 * 70 / 100"
+**********************************************Réponse:B
+# Q4  Can we change the value of myName from “Houssem” to “Nessrine” ?
+                               let myName = "Houssem"
+.A : Yes
+.B : No
+**********************************************Réponse:A
+# Q5  Can we change the type of phoneNumber from number to string ?
+                               let phoneNumber = 71 000 000
+.A : Yes
+.B : No
+**********************************************Réponse:A
+# Q6 How to create an object variable ?
+
+.A : let animal = cat
+.B : let animal = [cat]
+.C : let animal = { type : "cat"} 
+******************************************Réponse:B
+
+# Q7 How to create an array variable?
+
+.A : let array = [1,"e","true",7888]
+.B : let array = {one : 1 , two : 2}
+.C : let array = "h" , "a", "m" ,"z", "a"
+.D : let array = []
+
+*************************************************Réponse:D
+# Q8 Does  100 + 30+ "20"  produce a number or a string?
+
+.A : number
+.B : string
+******************************************Réponse:B
+
+# Q9 After running this code: let x What is the value of x?
+
+.A : number
+.B : null 
+.C : undefined
+******************************************Réponse:C
+# Q10    What does the following snippet output ? 
+                     let myName = "Seif"
+                     myname = 15
+                     myname = Google
+                     console.log(myName)
+.A : Seif
+.B : 15 
+.C : google
+
+******************************************Réponse:A
+
+# Q11 If we declare a variable, const value = 1, then later, reassign, stating value = 2, what will happen?
+
+.A : value will equal 2
+.B :  value will equal 1 
+.C : value will equal undefined 
+.D : JavaScript will raise a TypeError
+
+    ******************************************Réponse:D                                                                                 
+# Q12  What does the following snippet output ? 
+                                  let nbr = 84 /0 
+                                  console.log(nbr)
+
+.A :  84
+.B :  0
+.C :   infinity
+.D : Nan
+
+******************************************Réponse:B
+# Q13 let age = "25"
+
+               The type of age is number
+.A : Yes
+.B : No
+******************************************Réponse:B
+# Q14 What is the result of the expression
+
+                                20 - '10'
+.A : 10
+.B : undefined
+.C : NaN
+.D : 0
+
+******************************************Réponse:C
+# Q15 How to declare a string variable ?
+
+.A :  let name = " Mouna"
+.B :  let name= (" Mouna")
+.C :   let name = Mouna
+.D :  var name = " Mouna"
+
+******************************************Réponse:A,C
+20 - '10'
+# Q16 Which of the following is the correct way of returning the length of this string?
+
+.A :  length("hello")
+.B :  length."hello"
+.C :   "hello".length
+******************************************Réponse:C
+# Q17 What will be output of below statements?
+
+let car = "BMW"
+car = " Ford"
+.A :  car
+.B :  "Ford"
+.C :   "BMW" 
+******************************************Réponse:B
+# Q18  What is the length of the following string :  
+                           let str = "Hi Sir !"
+.A :  8
+.B :   3
+.C :   6 
+******************************************Réponse:A
+# Q19  Which of these is an incorrect statement
+
+.A : console.log( "my name is 'Syrine' ! " )
+
+.B : console.log( 'my name is "Syrine" ! ' )
+
+.C : console.log( "my name is "Syrine" ! " )
+
+.D : console.log( "my name is \"Syrine\" ! " )
+******************************************Réponse:A,D
+
+# Q20 How to declare a boolean variable ?
+                        
+.A :   let isBoolean= true
+.B :   let isBoolean = False
+.C :   let isBoolean= false
+.D :  let isBoolean = 4500 <=15000
+******************************************Réponse:A,C
+# Q21 What does the following expression return?
+              console.log( 8 > 10 )
+.A :  false
+.B :   False 
+.C :   TRUE
+******************************************Réponse:A
+
+# Q22 What does the following expression return ?
+              console.log( 'A' < 'B' )
+.A :  false
+.B :   true 
+.C :   undefined
+******************************************Réponse:
+
+
+# Q23 Are these boolean variables ? 
+                      let isEmployee = true 
+                      let isStudent = 'false'
+.A :  Yes
+.B :   No
+******************************************Réponse:B
+
+# Q24  What will be output of below statement?
+
+                   console.log(100 <= 100)
+.A :  true 
+.B :   false
+.C :  100
+
+******************************************Réponse:A
+# Q25 What is the length of the following array: ["hello" ,"a",7, 8 ,true ,false ]
+.A : 6
+.B: 5 
+.C 7 
+******************************************Réponse:A
+
+# Q26 What is the output of the following code fragment:
+
+                let arr = [ 200 , 7 , 780 , 0 ] 
+
+                   console.log( arr[2] )
+
+.A : 2
+.B: 7
+.C 780
+.D: undefined
+******************************************Réponse:B
+
+# Q27 What is the index value of the first element?
+
+.A : -1
+.B: 0
+.C 1
+.D: 2
+******************************************Réponse:B
+
